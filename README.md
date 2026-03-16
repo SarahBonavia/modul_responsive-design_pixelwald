@@ -1,3 +1,3 @@
 # pixelwald
 
-https://www.figma.com/design/muyiaJeNkvcjDeSwndtGeH/Pixelwald---Onepager?node-id=121-1117&t=Kjqqee5oICFsDhnf-1
+https://www.figma.com/design/wV9HPChKaq2KMOFyDxfUJq/Pixelwald---Onepager-V2?node-id=38-1700&t=0UmpPTV4iIWxpQra-1
