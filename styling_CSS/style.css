@@ -202,11 +202,11 @@ header {
 }
 
 .headerlist li a:hover {
-    color: #dddddd;
+    color: #E6006F;
 }
 
 .headerlist li a:active {
-    color: #e0006e;
+    color: #E6006F;
 }
 
 .nav-toggle,
@@ -232,7 +232,8 @@ button {
 
 
 button:hover {
-    background-color: #333333;
+    background-color: #E6006F;
+    border: 1px solid #E6006F;
 }
 
 
@@ -245,7 +246,9 @@ button:hover {
 
 
 .secondary:hover {
-    background-color: #dddddd;
+    background-color: #E6006F;
+    border: 1px solid #E6006F;
+    color: white;
 }
 
 
@@ -282,7 +285,7 @@ h2 {
 }
 
 h4 {
-    color: #e0006e;
+    color: #E6006F;
     padding: 0; 
     margin-bottom: 40px;
     text-transform: uppercase;
@@ -342,7 +345,7 @@ li {
 
 
 .magentatext {
-    color: #e0006e;
+    color: #E6006F;
 }
 
 
@@ -895,7 +898,7 @@ footer {
     }
 
     h4 {
-        font-size: 0.8rem;
+        font-size: 0.95rem;
         letter-spacing: 2px;
     }
 
