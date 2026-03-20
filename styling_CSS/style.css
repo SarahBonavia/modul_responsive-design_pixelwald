@@ -228,6 +228,12 @@ header {
 
 /* Button Styles */
 
+.transition-regular {
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
 button {
     background-color: black;
     color: white;
@@ -239,6 +245,9 @@ button {
     display: inline;
     font-weight: bold;
     margin-bottom: 60px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
 }
 
 
@@ -518,21 +527,25 @@ hr {
     flex-direction: column;
     align-items: center;
     gap: 6px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
 }
 
 .austellungen_toggle h4 {
     margin: 0;
+    color: white;
 }
 
 .austellungen_toggle_icon {
-    color: #E6006F;
+    color: white;
     font-size: 24px;
     line-height: 1;
     transition: transform 0.3s ease;
 }
 
 .austellungen_toggle[aria-expanded="true"] .austellungen_toggle_icon {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
 }
 
 .austellungen_toggle:hover,
@@ -546,14 +559,14 @@ hr {
 .austellungen_toggle:focus-visible h4,
 .austellungen_toggle:hover .austellungen_toggle_icon,
 .austellungen_toggle:focus-visible .austellungen_toggle_icon {
-    color: white;
+    color: #E6006F;
 }
 
 .austellungen_more {
     grid-column: 1 / 9;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    column-gap: 64px;
+    column-gap: inherit;
     max-height: 0;
     opacity: 0;
     overflow: hidden;
