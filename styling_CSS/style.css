@@ -390,7 +390,7 @@ li {
 
 hr {
     border-color: white;
-    margin: 60px 20px 0 20px;
+    margin: 0 20px;
 }
 
 
@@ -756,6 +756,99 @@ hr {
     height: auto;
 }
 
+/* Pipilotti Swiper */
+
+.pipilotti-swiper-container {
+    grid-column: 1 / 9;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.swiper-title {
+    color: #E6006F;
+    padding: 0;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.pipilotti-swiper {
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.pipilotti-swiper .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    overflow: visible;
+}
+
+.swiper-slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.pipilotti-swiper .swiper-slide img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+.pipilotti-swiper .swiper-pagination {
+    position: relative;
+    bottom: auto;
+    margin-top: 40px;
+    display: block;
+}
+
+.swiper-slide-text {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+}
+
+.pipilotti-swiper .swiper-pagination-bullet {
+    background-color: #E6006F;
+    opacity: 0.5;
+}
+
+.pipilotti-swiper .swiper-pagination-bullet-active {
+    background-color: #E6006F;
+    opacity: 1;
+}
+
+.pipilotti-swiper .swiper-button-next,
+.pipilotti-swiper .swiper-button-prev {
+    color: #E6006F;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pipilotti-swiper .swiper-button-next:after,
+.pipilotti-swiper .swiper-button-prev:after {
+    font-size: 18px;
+}
+
+.pipilotti-swiper .swiper-button-next:hover,
+.pipilotti-swiper .swiper-button-prev:hover {
+    background-color: rgba(230, 0, 111, 0.2);
+}
+
 
 /* Element Styles Credits */
 
@@ -905,7 +998,8 @@ footer {
     #credits .credits_content,
     #credits .credits_subentry,
     #credits .caption,
-    #pipilotti .pipilotti-title h4 {
+    #pipilotti .pipilotti-title h4,
+    .swiper-title {
         text-align: left;
     }
 
@@ -956,6 +1050,30 @@ footer {
 
     #pipilotti .pipilotti-img {
         margin: 0 0 60px 0;
+    }
+
+    .swiper-title {
+        margin-bottom: 30px;
+    }
+
+    .pipilotti-swiper .swiper-slide img {
+        aspect-ratio: 1 / 1;
+    }
+
+    .swiper-slide-text {
+        font-size: 13px;
+    }
+
+    .pipilotti-swiper .swiper-pagination {
+        margin-top: 32px;
+        position: relative;
+        bottom: auto;
+    }
+
+    .pipilotti-swiper .swiper-button-next,
+    .pipilotti-swiper .swiper-button-prev {
+        width: 36px;
+        height: 36px;
     }
 
 
@@ -1083,6 +1201,39 @@ footer {
     h4 {
         font-size: 0.95rem;
         letter-spacing: 2px;
+    }
+
+    /* Pipilotti Swiper Mobile */
+    .pipilotti-swiper-container {
+        grid-column: 1 / 9;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .swiper-title {
+        margin-bottom: 24px;
+        font-size: 0.95rem;
+    }
+
+    .pipilotti-swiper .swiper-slide img {
+        aspect-ratio: 1 / 1;
+    }
+
+    .swiper-slide-text {
+        font-size: 12px;
+    }
+
+    .pipilotti-swiper .swiper-pagination {
+        margin-top: 24px;
+        position: relative;
+        bottom: auto;
+    }
+
+    .pipilotti-swiper .swiper-button-next,
+    .pipilotti-swiper .swiper-button-prev {
+        width: 32px;
+        height: 32px;
     }
 
     /* Buttons full-width */

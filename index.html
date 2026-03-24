@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fjord+One&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fjord+One&family=Playfair+Display:wght@900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
   </head>
 
@@ -204,8 +205,8 @@
             <img src="img/pixelwald_installation_4.jpg" alt="Pixelwald Installation in Oslo Park Ekebergparken">
           </div>
 
-          <div class="austellungen_bild austellungen_bild--pair austellungen_bild--right">
-            <img src="img/pixelwald_installation_5.jpg" alt="Pixelwald Installation in Oslo Park Ekebergparken" >
+          <div class="austellungen_bild austellungen_bild--pair austellungen_bild--right austellungen_bild--match-43">
+            <img src="img/pixelwald_installation_oslo_6.jpg" alt="Pixelwald Installation in Oslo Park Ekebergparken" >
           </div>
 
 
@@ -215,14 +216,13 @@
             <button onclick="window.open('https://visitorguide.kunsthaus.ch/51936441/-30/51936441/false/0/-/-/61568477/56521877', '_blank')"> Pixelwald Turicum — Kunsthaus Zürich — 2021 </button>
           </div>
 
-          <div class="austellungen_bild austellungen_bild--pair austellungen_bild--left">
-            <img src="img/pixelwald_installation_2.jpg" alt="Pixelwald Installation in Kunsthaus Zürich">
+          <div class="austellungen_bild austellungen_bild--pair austellungen_bild--left austellungen_bild--match-43">
+            <img src="img/pixelwald_installation_turicum_8.jpg" alt="Pixelwald Installation in Kunsthaus Zürich">
           </div>
 
           <div class="austellungen_bild austellungen_bild--pair austellungen_bild--right">
-            <img src="img/pixelwald_installation_3.jpg" alt="Pixelwald Installation in Kunsthaus Zürich">
+            <img src="img/pixelwald_installation_turicum_9.jpeg" alt="Pixelwald Installation in Kunsthaus Zürich">
           </div>
-
 
 
           <div class="austellungen_button_container austellungen_toggle_container">
@@ -361,6 +361,71 @@
             <a href="https://de.wikipedia.org/wiki/Pipilotti_Rist" target="_blank"><img class="img-hovered" src="img/wikipedia_icon.png" alt="Wikipedia Icon"></a>
           </div>
 
+          <div class="pipilotti-swiper-container">
+            <h4 class="swiper-title">Andere Projekte</h4>
+            <div class="swiper pipilotti-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <img src="img/swiper_2000_Open_My_Glade_1.jpg" alt="Open My Glade">
+                    <p class="swiper-slide-text">Open My Glade, 2000</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <img src="img/swiper_2009_pepperminta_poster.jpg" alt="Pepperminta Poster">
+                    <p class="swiper-slide-text">Pepperminta, 2009</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <img src="img/swiper_2024_Electric_Idyll.jpg" alt="Electric Idyll">
+                    <p class="swiper-slide-text">Electric Idyll, 2024</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <img src="img/swiper_2025_Tine_refills_the_oil.jpg" alt="Tine Refills the Oil">
+                    <p class="swiper-slide-text">Tine Refills the Oil, 2025</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <img src="img/swiper_2025_your_palm_my_universe_5.jpg" alt="Your Palm My Universe">
+                    <p class="swiper-slide-text">Your Palm My Universe, 2025</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <img src="img/swiper_chandelierjpeg.jpeg" alt="Chandelier">
+                    <p class="swiper-slide-text">Chandelier</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <img src="img/swiper_innocent_collection_MOCA.jpg" alt="Innocent Collection MOCA">
+                    <p class="swiper-slide-text">Innocent Collection, MOCA</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <img src="img/swiper_mercy_garden_1.jpeg" alt="Mercy Garden">
+                    <p class="swiper-slide-text">Mercy Garden</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide-content">
+                    <img src="img/swiper_pip-slide-9.jpeg" alt="Pipilotti Rist artwork">
+                    <p class="swiper-slide-text">Artwork</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
         </section>
 
 
@@ -431,6 +496,36 @@
 
         <script src="./js/accordion.js"></script>
         <script src="./js/header-scroll.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+          const swiper = new Swiper('.pipilotti-swiper', {
+            loop: true,
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+              delay: 5000,
+              disableOnInteraction: false,
+            },
+            spaceBetween: 20,
+            slidesPerView: 1,
+            breakpoints: {
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+            },
+          });
+        </script>
 
 
   </body>
