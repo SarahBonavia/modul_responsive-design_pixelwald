@@ -290,7 +290,7 @@ button:hover {
 
 
 
-/* Image/Icon properties */
+/* Image & Icon properties */
 
 img {
     width: 100%;
@@ -386,12 +386,14 @@ li {
 }
 
 
+
 /* Separator line */
 
 hr {
     border-color: white;
     margin: 0 20px;
 }
+
 
 
 /* Element Styles hero */
@@ -460,6 +462,8 @@ hr {
     background: rgba(230, 0, 111, 0.7);
     border-color: #E6006F;
 }
+
+
 
 #hero_section .hero_bild video {
     width: 100%;
@@ -590,9 +594,11 @@ hr {
     transition: transform 0.3s ease;
 }
 
+
 .austellungen_toggle[aria-expanded="true"] .austellungen_toggle_icon {
     transform: rotate(180deg);
 }
+
 
 .austellungen_toggle:hover,
 .austellungen_toggle:focus-visible {
@@ -601,12 +607,14 @@ hr {
     outline: none;
 }
 
+
 .austellungen_toggle:hover h4,
 .austellungen_toggle:focus-visible h4,
 .austellungen_toggle:hover .austellungen_toggle_icon,
 .austellungen_toggle:focus-visible .austellungen_toggle_icon {
     color: #E6006F;
 }
+
 
 .austellungen_more {
     grid-column: 1 / 9;
@@ -655,6 +663,7 @@ hr {
     background-color: white;
 }
 
+
 .installation h4,
 .installation h2,
 .installation ul,
@@ -699,6 +708,7 @@ hr {
 .installation-row button {
     margin: 0;
 }
+
 
 
 /* Element Styles Pipilotti */
@@ -758,7 +768,8 @@ hr {
     height: auto;
 }
 
-/* Pipilotti Swiper */
+
+/* Pipilotti more projects Swiper */
 
 .pipilotti-swiper-container {
     grid-column: 1 / 9;
@@ -850,6 +861,8 @@ hr {
 .pipilotti-swiper .swiper-button-prev:hover {
     background-color: rgba(230, 0, 111, 0.2);
 }
+
+
 
 
 /* Element Styles Credits */
@@ -1106,6 +1119,8 @@ footer {
         margin-top: 40px;
     }
 
+
+
     /* Reduce section padding for tablets */
     .content_section,
     .austellungen,
@@ -1206,6 +1221,8 @@ footer {
         letter-spacing: 2px;
     }
 
+
+
     /* Pipilotti Swiper Mobile */
     .pipilotti-swiper-container {
         grid-column: 1 / 9;
@@ -1239,7 +1256,10 @@ footer {
         height: 32px;
     }
 
+
+
     /* Buttons full-width */
+
     button {
         display: block;
         width: 100%;
@@ -1282,7 +1302,6 @@ footer {
         height: auto;
     }
 }
-
 
 
 /* Media Query für Bildschirme mit einem Seitenverhältnis von 4:3 */
